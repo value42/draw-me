@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(165, 63, 63);
+}
+
+#canvas {
+  background-color: rgb(114, 45, 243);
+  border: 5px solid rgb(197, 57, 6);
+}
+
+.canvasContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  /* background-color: cornflowerblue; */
+  padding: 10px;
+}
+
+.container-elem {
+  margin: 0 5px;
+  border: none;
+}
+
+.small-btn {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+#clearBtn {
+  width: 3.5rem;
+  cursor: grab;
+}
+
+#brushSize {
+  text-shadow: 1px 1px 2px #000;
+  color: beige;
+}
+
+/* #clearBtn:hover {
+  color: crimson;
+  background-color: cyan;
+} */
+
+/* #increase {
+  cursor: zoom-in;
+}
+
+#decrease {
+  cursor: zoom-out;
+} */

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Draw</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <canvas id="canvas" width="1000" height="600"></canvas>
+    <div class="canvasContainer">
+      <button class="container-elem small-btn" id="decrease">-</button>
+      <span class="container-elem" id="brushSize">5</span>
+      <button class="container-elem small-btn" id="increase">+</button>
+      <input
+        class="container-elem"
+        type="color"
+        id="colorPicker"
+        value="#000000"
+      />
+      <button class="container-elem small-btn" id="clearBtn">Clear</button>
+    </div>
+  </body>
+</html>
